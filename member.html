@@ -3,75 +3,243 @@
 <head>
 <meta charset="UTF-8">
 <title>メンバー紹介 - Neural Ghostline † 502 HP</title>
+
 <style>
-body { background-color: #000000; color: #00ffcc; font-family: "MS Gothic", Osaka, monospace; margin:0; }
-a { color: #00ccff; text-decoration: underline; } a:hover { color: #ffff66; }
-.container { width: 760px; margin: auto; border: 2px solid #00ffcc; background-color: #000022; }
-header { text-align: center; padding: 20px; border-bottom: 2px solid #00ffcc; }
-table.layout { width: 100%; border-collapse: collapse; }
-td.menu { width: 180px; border-right: 2px solid #00ffcc; padding: 10px; background-color: #000033; vertical-align: top; }
-td.main { padding: 15px; background-color: #000000; vertical-align: top; }
-h2 { border-bottom: 1px solid #00ffcc; padding-bottom: 4px; }
-footer { text-align: center; font-size: 12px; color: #cccccc; padding: 10px; border-top: 2px solid #00ffcc; }
+body {
+    background:
+        url("img/star_bg.gif"),
+        linear-gradient(to bottom, #0d1028, #1a1f4a);
+
+    color: #e8f7ff;
+    font-family: "MS Gothic", Osaka, monospace;
+    margin: 0;
+}
+
+/* リンク */
+a {
+    color: #7dd3ff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fff799;
+}
+
+/* 全体 */
+.container {
+    width: 760px;
+    margin: 20px auto;
+    border: 2px solid #66ddff;
+    background-color: #12183b;
+    box-shadow: 0 0 20px #3399ff55;
+}
+
+/* ヘッダー */
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #66ddff;
+    background: linear-gradient(to bottom, #1d2b64, #10163a);
+}
+
+/* テーブル */
+table.layout {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* メニュー */
+td.menu {
+    width: 180px;
+    border-right: 2px solid #66ddff;
+    padding: 10px;
+    background-color: #1b2552;
+    vertical-align: top;
+}
+
+/* メイン */
+td.main {
+    padding: 15px;
+    background-color: #0f1330;
+    vertical-align: top;
+}
+
+/* 見出し */
+h2 {
+    border-left: 6px solid #66ddff;
+    padding-left: 10px;
+    color: #aee7ff;
+    background-color: #1b2552;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #d0d0d0;
+    padding: 10px;
+    border-top: 2px solid #66ddff;
+    background-color: #151c40;
+}
+
+/* 画像 */
+img {
+    image-rendering: pixelated;
+}
+
+/* メンバーカード */
+.member-card {
+    width: 100%;
+    margin-bottom: 18px;
+    background-color: #141a3f;
+    border: 1px solid #66ddff;
+    box-shadow: 0 0 10px #3399ff33;
+}
+
+.member-card td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+/* アイコン */
+.icon {
+    border: 1px solid #66ddff;
+    background-color: #0b1028;
+}
+
+/* 名前 */
+.member-name {
+    color: #9fe8ff;
+    font-size: 18px;
+}
 </style>
 </head>
+
 <body>
 
 <div class="container">
+
 <header>
+
 <img src="img/logo.png" width="360" alt="サークルロゴ"><br><br>
-<marquee>Welcome to Neural Ghostline † 502 Web site ! This is about the member page</marquee>
+
+<marquee behavior="scroll" direction="left">
+Welcome to Neural Ghostline † 502 Web site ! This is about the member page
+</marquee>
+
 </header>
 
 <table class="layout">
 <tr>
+
 <td class="menu">
+
 <img src="img/symbol.png" width="48"><br><br>
+
 <b>◆ MENU ◆</b><br><br>
+
 <a href="index.html">トップ</a><br>
 <a href="member.html">メンバー紹介</a><br>
 <a href="works.html">作品紹介</a><br>
 <a href="event.html">イベント参加録</a><br>
+
 <!-- <a href="bbs.html">掲示板</a><br> -->
+
 </td>
 
 <td class="main">
 
 <h2>◆ メンバー紹介 ◆</h2>
-<table>
-<tr>
-<td width="100">
-<img src="img/gime.jpg" width="80">
-</td>
-<td>
-<b>＜代表＞　霜月ぎめを</b><br>
-担当：プログラム / グラフィック / 企画 / 雑用
-</td>
-</tr>
+
+<!-- 代表 -->
+<table class="member-card">
 
 <tr>
-<td width="100">
-<img src="img/feno.jpg" width="80">
-</td>
-<td>
-<b>＜メンバー＞　桜小路ふぇの</b><br>
-担当：音楽 / 企画
-</td>
-</tr>
-<td width="100">
-</td>
-<td>
-<b>＜メンバー＞　月城れいら</b><br>
-担当：キャラクターデザイン
-</td>
-</tr>
-</table>
 
+<td width="110">
 
+<img src="img/gime.jpg" width="80" class="icon">
+
+</td>
+
+<td>
+
+<div class="member-name">
+<b>＜代表＞　霜月ぎめを</b>
+</div>
+
+<br>
+
+担当：<br>
+プログラム / グラフィック / 企画 / 雑用
+
+</td>
+
+</tr>
 
 </table>
 
+<!-- メンバー -->
+<table class="member-card">
+
+<tr>
+
+<td width="110">
+
+<img src="img/feno.jpg" width="80" class="icon">
+
 </td>
+
+<td>
+
+<div class="member-name">
+<b>＜メンバー＞　桜小路ふぇの</b>
+</div>
+
+<br>
+
+担当：<br>
+音楽 / 企画
+
+</td>
+
+</tr>
+
+</table>
+
+<!-- メンバー -->
+<table class="member-card">
+
+<tr>
+
+<td width="110">
+
+<!-- 画像なし -->
+<img src="img/noimage.png" width="80" class="icon">
+
+</td>
+
+<td>
+
+<div class="member-name">
+<b>＜メンバー＞　月城れいら</b>
+</div>
+
+<br>
+
+担当：<br>
+キャラクターデザイン
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
 </tr>
 </table>
 
@@ -80,5 +248,6 @@ footer { text-align: center; font-size: 12px; color: #cccccc; padding: 10px; bor
 </footer>
 
 </div>
+
 </body>
 </html>
